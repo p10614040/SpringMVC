@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright (c) 2016. Iceblock.
+  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examples 2</title>
+</head>
+<body>
+<h1>我是动态页面，表格通过 JS 构造</h1>
+<table id="table">
+    <thead>
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>sex</th>
+        <th>height(cm)</th>
+    </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+</table>
+
+<script>
+    var tbodyHtml =
+            "<tr>\n" +
+            "               <td>Zhang San1</td>\n" +
+            "               <td>18</td>\n" +
+            "               <td>male</td>\n" +
+            "               <td>173</td>\n" +
+            "           </tr>\n" +
+            "           <tr>\n" +
+            "               <td>Li Si</td>\n" +
+            "               <td>19</td>\n" +
+            "               <td>male</td>\n" +
+            "               <td>174</td>\n" +
+            "           </tr>\n" +
+            "           <tr>\n" +
+            "               <td>Wang Wu</td>\n" +
+            "               <td>19</td>\n" +
+            "               <td>male</td>\n" +
+            "               <td>175</td>\n" +
+            "           </tr>";
+
+    document.getElementById("tbody").innerHTML = tbodyHtml;
+</script>
+</body>
+</html>

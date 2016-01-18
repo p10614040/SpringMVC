@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Zhang San",
+    "age": 18,
+    "sex": "male",
+    "height": 173
+  },
+  {
+    "name": "Li Si",
+    "age": 19,
+    "sex": "male",
+    "height": 174
+  },
+  {
+    "name": "Wang Wu",
+    "age": 19,
+    "sex": "male",
+    "height": 175
+  }
+]
